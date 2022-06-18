@@ -1,0 +1,23 @@
+<script>
+    document.write("Array look var var_name = [array value] <br><br> eg:- var a [10,20,30] <br><br> Object Look var Var_name = {Properties : value or array Or function }; <br><br> eg:- var a = { Fname: name <br> favMovies :['uri','welcome'] <br> salary : function(){return 25000}};<br><br>");
+    document.write(" In Object we can also insitilize array and function and also create object in object <br>")
+    var a = {
+        fname:'Abhay',
+        lname:'parmar',
+        age:18,
+        favmovies:['hera phari','phire hera phar','welcome'],
+        salary : function () {
+            return 10000;
+        },
+        fullname : function(){
+            return this.fname + " " + this.lname;
+        },
+        living : {
+            Taluka : 'rajkot',
+            city : 'Jetpur'
+        },
+    }
+    console.log(a);
+    document.write("<br><br>full  name :- "+a.fullname()+"<br>");
+    document.write("salary  :- "+a.salary()+"<br>");
+</script>

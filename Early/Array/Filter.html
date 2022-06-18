@@ -1,0 +1,13 @@
+<script>
+    var ages=[19,15,18,28,48];
+    document.write("Array :- " + ages + "<br><br>");
+    document.write("Filter used for create array ,array element is true given condition eg if our array has 5 element and condition check if 3 element will be true than store in another array <br><br>");
+    var b = ages.filter(check)
+    document.write("filter array " +b+ "<br>");
+    
+    function check(age)
+    {
+        return age>=18
+    }
+
+</script>

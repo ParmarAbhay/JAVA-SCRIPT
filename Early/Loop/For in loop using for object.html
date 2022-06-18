@@ -1,0 +1,22 @@
+<script>
+    var a = {
+        fname:'Abhay',
+        lname:'parmar',
+        age:18,
+        favmovies:['hera phari','phire hera phar','welcome'],
+        salary : function () {
+            return 10000;
+        },
+        fullname : function(){
+            return this.fname + " " + this.lname;
+        },
+        living : {
+            Taluka : 'rajkot',
+            city : 'Jetpur'
+        },
+    }
+
+    for (const key in a) {
+        document.write(key + " : " + a[key]+"<br><br>");  
+    }
+</script>

@@ -1,0 +1,16 @@
+<script>
+    var ages = [10,20,30,16];
+    document.write("array:- " + ages + " <br><br>");
+    document.write("Some Function is used for check condition using create function eg:- if age >= 18 then answer will be true otherwise false.<br><br>");
+    var b = ages.some(checkAdult);
+    document.write("Using some :- "+b+"<br><br>");
+
+    function checkAdult(age){
+        return age >= 18;
+    }
+
+    document.write("<br<br>Every funtion used for check all the values greater than pass in function eg : if age>=18 then all value must be greater than 18 and if this condition is right than answer will be true other wise false.");
+    var c= ages.every(checkAdult);
+    document.write("<br><br>Using every :- "+c+"<br><br>");
+    
+</script>

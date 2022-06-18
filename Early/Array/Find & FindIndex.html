@@ -1,0 +1,16 @@
+<script>
+    var ages=[10,2,18];
+    document.write("Aray :- " + ages + "<br><br>")
+    document.write("Find function is used for find value in array using condition eg :- if age >18 than find function check in array if age is >18 found answer will be given else not found anser wil be undefined.return first element in array <br><br>");
+    var b = ages.find(check);
+    document.write("Find :- "+b+"<br><br>");
+
+    function check(age)
+    {
+        return age>=18
+    }    
+    document.write("Find Index used for find index in array same as find function eg:- if found answer will be given index from array else answer will be -1<br><br> ")
+    var c = ages.findIndex(check);
+    document.write("Find index :- "+c+"<br><br>");
+    document.write("Find functon return value and findIndex used for return index in array <br>")
+</script>

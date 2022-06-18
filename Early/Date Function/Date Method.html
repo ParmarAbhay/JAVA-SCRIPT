@@ -1,0 +1,55 @@
+<html>
+    <body>
+        <h3>Date method</h3>
+        <ol>
+            <li>toDateString()</li>
+            <li>getDate()</li>
+            <li>getFullYear()</li>
+            <li>getMonth()</li>
+            <li>getDay()</li>
+            <li>getHours()</li>
+            <li>getMinutes()</li>
+            <li>getSeconds()</li>
+            <li>getMilliSeconds()</li>
+            <li>setDate()</li>
+            <li>setFullYear()</li>
+            <li>setHours()</li>
+            <li>setMilliSeconds()</li>
+            <li>setMinutes()</li>
+            <li>setMonths()</li>
+            <li>setSeconds()</li>
+        </ol>
+        <h4>Read Me we can find date first create object eg var now = object <br>in this months 0 = jan and 1 =feb same as day 0 = sunday .. <br></h4>
+        <h4>in hours 0 = 12<br>get method used for now.time value and set method used for know the time period means 20 date of 11 month which day present give name? </h4>
+    </body>
+    <script>
+        var now = new Date();
+        console.log(now);
+        document.write("<br><br>toDateString give day month date and year");
+        document.write("<br><br>toDateString :- " + now.toDateString());
+        document.write("<br><br>getDate :- " + now.getDate());
+        document.write("<br><br>getFullYear : - " + now.getFullYear());
+        document.write("<br><br>getMonth : - " + now.getMonth());
+        document.write("<br><br>getDay : - " + now.getDay());
+        document.write("<br><br>getHours : - " + now.getHours());
+        document.write("<br><br>getMinutes : - " + now.getMinutes());
+        document.write("<br><br>getSeconds : - " + now.getSeconds());
+        document.write("<br><br>getMilliseconds : - " + now.getMilliseconds());
+        var time = new Date();
+        time.setDate(5);
+        document.write("<br><br>setDate :- " + time);
+        time.setFullYear(2022);
+        document.write("<br><br>setFullYear :- " + time);
+        time.setHours(11);
+        document.write("<br><br>setHours :- " + time);
+        time.setMilliseconds(597);
+        document.write("<br><br>setMiliSeconds:- " + time);
+        time.setMinutes(59);
+        document.write("<br><br>setMinutes :- " + time);
+        time.setMonth(12);
+        document.write("<br><br>setMonths :- " + time);
+        time.setSeconds(59);
+        document.write("<br><br>setSeconds :- " + time);
+
+    </script>
+</html>

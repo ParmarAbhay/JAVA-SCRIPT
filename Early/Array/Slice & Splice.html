@@ -1,0 +1,12 @@
+<script>
+    var a = [20,10,22,11,30];
+    document.write("ARRAY:-  "+a+"<br><br>");
+    document.write("Slice is used for create small array from full array. <br><br>Syntex: array_name.slice(Start_index,End_index)<br><br>we can give destination + 1 index for achive destination index if only give starting index they print starting index to last index of array <br> if we give nagetiv value than the array index is reverse  <br><br>");
+    var b =  a.slice(1,3);
+    var d = a.slice(-2);
+    document.write("<br>Slice ARRAY:-  "+b+"<br>");
+    document.write("<br><br>Slice ARRAY:-  "+d+"<br>");
+    document.write("<br><br>Splice function is used for add value in array <br>Syntex array_name.splice(index,delete element from given index let 2 than 2 element delete if we can 0 element delete than write 0,add new value)");
+    a.splice(1,0,90);
+    document.write("<br><br>Splice ARRAY:-  "+a+"<br><br>");
+</script>

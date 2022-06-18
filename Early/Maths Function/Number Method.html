@@ -1,0 +1,36 @@
+<html>
+    <body>
+        <h2>There are 7 number method </h2>
+        <ol>
+            <li>Number()</li>
+            <li>parseInt()</li>
+            <li>parseFloat()</li>
+            <li>isfinite()</li>
+            <li>isinteger</li>
+            <li>toFixed(x)</li>
+            <li>toPrecision(x)</li>
+        </ol>
+    </body>
+    <script>
+        var c = "10";
+        document.write("String :- " + c);
+        document.write("<br><br>Number used for conver any type of data type into number ");
+        document.write("<br><br>Number :- " + (Number(c)+10));
+        document.write("<br><br>Parse Int used for conver decimal into integer");
+        var a = 10.20;
+        document.write("<br><br>Decimal Number  :- " + a);
+        document.writeln("<br><br>Parse Int :- " + parseInt(a));
+        document.write("<br><br>Parsefloat used he is also print decimal number");
+        document.write("<br><br>ParseFloat :- " + parseFloat(a));
+        document.write("<br><br>isfinite used check value is finite or not answe will be true or false ");
+        var b = Infinity;
+        document.write("<br><br>Isfinite :- " + Number.isFinite(b));
+        document.write("<br><br>isInteger used for check variable value is integer or not answer will be true or false");
+        document.write("<br><br>isInteger :- " + Number.isInteger(c));
+        document.write("<br><br>toFixed used for fixed decimal number eg 1.123 fixed 2 answer will be 1.12");
+        var d = 12.678;
+        document.write("<br><br>toFixed :-  " + d.toFixed(2));
+        document.write("<br><br>toprecision used for given upper number eg : - a = 1.678 answer 1.7");
+        document.write("<br><br>toPrecision :- " + d.toPrecision(3))
+    </script>
+</html>
